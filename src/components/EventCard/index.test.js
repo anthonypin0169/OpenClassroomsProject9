@@ -29,6 +29,7 @@ describe("When a event card is created", () => {
     expect(labelElement).toBeInTheDocument();
     expect(monthElement).toBeInTheDocument();
   });
+  screen.debug()
   describe("with small props", () => {
     it("a modifier small is added", () => {
       render(
